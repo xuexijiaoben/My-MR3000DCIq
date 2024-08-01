@@ -14,10 +14,10 @@
 # sed -i 's/CGO_ENABLED=0/CGO_ENABLED=1/g' package/app/cdnspeedtest/Makefile
 
 # 1.修改默认ip
-sed -i 's/192.168.1.1/192.168.2.5/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.2.1/g' package/base-files/files/bin/config_generate
 
 # 2.修改主机名
-sed -i 's/immortalwrt/MR3000D-CIq/g' package/base-files/files/bin/config_generate
+sed -i 's/ImmortalWrt/MR3000D-CIq/g' package/base-files/files/bin/config_generate
 
 # 4.修改版本号
 
