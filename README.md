@@ -1,0 +1,1 @@
+JCG Q30 pro = MR3000D CIq
